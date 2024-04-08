@@ -159,6 +159,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(1237, 23);
             this.textBox1.TabIndex = 8;
+            this.textBox1.Text = "Skriv här";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.Visible = false;
             // 
@@ -181,6 +182,7 @@
             this.button3.Text = "Results";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Visible = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // checkBox1
             // 
